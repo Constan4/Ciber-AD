@@ -1,0 +1,23 @@
+# Hashes capturados (no subir al repo)
+*.txt
+*.hash
+*.ntds
+*.ccache
+*.kirbi
+
+# Excepciones — sí subir
+!README.md
+!cheatsheet.md
+!**/scripts/*.py
+!**/*.md
+
+# Archivos temporales
+/tmp/
+*.log
+*.bak
+__pycache__/
+*.pyc
+
+# Resultados de BloodHound (datos sensibles)
+*.json
+BloodHound.zip
